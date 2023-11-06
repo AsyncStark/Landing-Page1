@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="./images/Pill-Blue-Glossy.png" alt="">
+    <div class="wrapper" >
+        <nav class="navbar">
+            <a href="#">Gun!</a>
+            <div id="nav-part2">
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+            </div>
+            <img src="./images/moon.svg" alt="">
+        </nav>
+        <div class="hero">
+            <div class="left">
+                <h1>
+                    Hello! I'm Siddharth. A <span>Designer</span> and <span>Developer</span>
+                </h1>
+                <p>
+                    Passionate in the fields of Frontend Dev and UI/UX Design. Likes building fast-performance and
+                    well-designed website interfaces using the latest technologies.
+                </p>
+                <a href="#">Sid's Portfolio <i class='bx bxs-arrow-from-left'></i></a>
+            </div>
+            <div class="right">
+                <img src="./images/buddy.png" alt="">
+            </div>
+        </div>
+    </div>
+    <img src="./images/Sphere-White-Matte.png" alt="">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"
+        integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".wrapper"), {
+            max: 3,
+            speed: 10,
+            
+        });
+    </script>
+</body>
+
+</html>
